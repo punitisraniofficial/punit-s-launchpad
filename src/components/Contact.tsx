@@ -31,7 +31,7 @@ export function Contact() {
                 <Reveal delay={i * 60}>
                   <a
                     href={d.href}
-                    target={d.href.startsWith("http") ? "_blank" : undefined}
+                    {...(d.href.startsWith("http") ? { target: "_blank" as const } : {})}
                     rel="noreferrer"
                     className="card-hover flex items-center gap-3 rounded-xl border border-border bg-card px-4 py-3 text-sm"
                   >
