@@ -96,9 +96,9 @@ export const projects = [
 
 export const education = [
   {
-    degree: "B.Tech — [Branch]",
-    school: "[College / University]",
-    period: "[Start Year] – [Expected Graduation Year]",
+    degree: "B.Tech — Computer Science & Engineering (Core)",
+    school: "JECRC University, Jaipur",
+    period: "2025 – 2030",
     notes: [
       "Relevant coursework: C Programming, Programming Fundamentals, DSA Fundamentals",
       "Active in college events and team activities",
@@ -106,15 +106,15 @@ export const education = [
   },
   {
     degree: "Class XII",
-    school: "[School Name]",
-    period: "[Year]",
-    notes: [],
+    school: "Emnanudl Mission Sr Sec School",
+    period: "2024",
+    notes: ["Scored 70%"],
   },
   {
     degree: "Class X",
-    school: "[School Name]",
-    period: "[Year]",
-    notes: [],
+    school: "Bhagwan Das Pareek Dream Sr Sec School",
+    period: "2022",
+    notes: ["Scored 90%"],
   },
 ];
 
